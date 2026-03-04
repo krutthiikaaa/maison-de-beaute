@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Maison de Beauté</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background-color:#F5E9E6;
+}
+nav{
+background-color:#CCA199;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;
+flex-wrap:wrap;
+}
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:bold;
+color:white;
+}
+.logo img{
+width:40px;
+}
+.menu{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+.menu a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+.menu a:hover{
+text-decoration:underline;
+}
+.hero{
+text-align:center;
+padding:40px;
+background-color:#E6D0CB;
+}
+.hero img{
+width:250px;
+margin-bottom:20px;
+}
+.hero h1{
+color:#5A2E28;
+}
+.button{
+background-color:#CCA199;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+.button:hover{
+background-color:#B07D73;
+transform:scale(1.05);
+}
+.services{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+padding:40px;
+}
+.card{
+background:white;
+padding:20px;
+width:200px;
+text-align:center;
+border-radius:8px;
+transition:0.3s;
+}
+.card img{
+width:100%;
+}
+.card:hover{
+transform:translateY(-5px);
+}
+.gallery{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+padding:40px;
+}
+.gallery img{
+width:180px;
+border-radius:5px;
+transition:0.3s;
+}
+.gallery img:hover{
+transform:scale(1.1);
+}
+@media(max-width:600px){
+
+.hero img{
+width:180px;
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+<nav>
+
+<div class="logo">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772608091/ChatGPT_Image_Mar_4_2026_12_34_36_PM_qzudpw.png" alt="logo">
+Maison de Beauté
+</div>
+
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="tips.html">Tips</a>
+<a href="menu.html">Menu</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Logout</a>
+</div>
+
+</nav>
+<div class="hero">
+
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772608642/e5393fd2-bbd1-4ff2-942d-44fa083ebc9a.png" alt="hero image">
+
+<h1>Maison de Beauté</h1>
+
+<p>Where Elegance Meets Beauty</p>
+
+<a href="contact.html">
+<button class="button">Book Appointment</button>
+</a>
+
+</div>
+<h2 style="text-align:center;">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772608877/5c2a80c7-e0fc-47f9-bf60-593502802130.png" alt="service">
+<h3>Makeup</h3>
+<p>Professional makeup for events.</p>
+</div>
+
+<div class="card">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772608948/556d8400-49d8-4fcf-9e5e-0bafc473dcb7.png" alt="service">
+<h3>Hair Styling</h3>
+<p>Modern haircuts and styling.</p>
+</div>
+
+<div class="card">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772609019/f97e2bbb-c091-4ed5-a377-be84e7b2f4a5.png" alt="service">
+<h3>Skin Care</h3>
+<p>Facials and skin treatments.</p>
+</div>
+
+</div>
+<h2 style="text-align:center;">Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772609179/46b51f71-2948-4e43-a30a-86ba340400ae.png" alt="gallery">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772609251/4d1e3c50-8594-40f7-8d57-038b21a4a1e9.png" alt="gallery">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772609349/5284762b-45bf-4820-bb44-4e0c90694701.png" alt="gallery">
+<img src="https://res.cloudinary.com/drttmcfyw/image/upload/v1772609410/9e6dc24d-2be4-4328-aad3-52c35830777b.png" alt="gallery">
+
+</div>
+
+
+</body>
+
+</html>
